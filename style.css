@@ -1,1 +1,50 @@
-<link rel="stylesheet" href="style.css">
+/* Estilos personalizados para complementos */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #38a169; /* Verde mais intenso */
+  transform: scale(1.05);
+}
+
+/* Personalizações para o layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.grid div {
+  transition: transform 0.2s;
+}
+
+.grid div:hover {
+  transform: translateY(-5px);
+}
+
+/* Rodapé */
+footer {
+  background-color: #2d3748; /* Cinza escuro */
+}
+
+footer a:hover {
+  color: #a0aec0; /* Cinza claro */
+}
